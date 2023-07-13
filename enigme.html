@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site BlackPanther SAYNA</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/css-enigme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo"></h1>
+            <ul class="nav">
+                <li>
+                    <a href="./index.html">
+                    ACCUEIL
+                    </a>
+                </li>
+                <li>
+                    <a href="./wakanda.html">
+                    WAKANDA
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                    ENIGME
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <aside id="logo-container" class="fade-in-top">
+        <div class="ligne">
+            
+        </div>
+        <div class="social-networks">
+            <ul>
+                <li>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                        <img src="./images/all/icon_facebook.png" alt="Icon facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                        <img src="./images/all/icon_instagram.png" alt="Icon instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                        <img src="./images/all/icon_twitter.png" alt="Icon twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                        <img src="./images/all/icon_tiktok.png" alt="Icon tiktok">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <section class="introduction">
+            <div class="content">
+                <h1 class="fade-in-start">Releve le defi <br> des dora milaje</h1>
+                <p class="fade-in-start text-citation">
+                    Les Dora Milaje sont de farouches guerrières d’élite. Elles constituent la garde rapprochée du Roi en personne et ont de nombreuses occasions de lui sauver la vie. Leur Générale, Okoyé est également la dirigeante des forces armées et des renseignements wakandais. <br>
+                    Prouve ton talent d’espion et déchiffre cette réplique d’Okoyé écrite en Wakandais, et apprend par la même occasion la première valeur d’une Dora Milaje !
+                    <br>
+                    <img src="./images/enigme/Pantherenigme3.png">
+                </p>
+
+            </div> 
+        </section>
+        <section class="enigme">
+            <h2><u>ENIGME NUMERO <span id="progress" style="font-family: 'Cantarell';"></span></u></h2>
+            <p class="text-intro" id="text-intro">
+                
+            </p>
+            <div class="response">
+                <div class="transcription">
+                    <p class="wakanda-forever">
+                        <span class="fade-in" id='text-enigme'></span>
+                    </p>
+                    <form class="in-res fade-in" id="form-response-enigme">
+                        <p>Alors, as tu la réponse ?</p>
+                        <input required type="text" name="res" placeholder="Réponse">
+                        <div class="center">
+                            <button type="submit">ENVOYER</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="know fade-in text-citation">
+                    <p id="title-know"></p>
+                    <div class="content">
+                        <p class="trans fade-in" id="text-know">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="part-1">
+            <img class="img-1" src="./images/all/footer1.png" alt="Photo de decoration, 3bulles un bleu et l'autre rose">
+            <img class="img-2" src="./images/all/footer2.png" alt="Icon SAYNA X Icon MARVEL">
+        </div>
+        <div class="part-2">
+            <div class="part-2-1">
+                <h2>PAGES</h2>
+                <a href="./wakanda.html">
+                    à propos <br> Wakanda
+                </a>
+            </div>
+            <div class="part-2-2">
+                <h2>RETROUVEZ NOUS</h2>
+                <ul>
+                    <li>
+                        <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                            <img src="./images/all/footer3.png" alt="Icon facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                            <img src="./images/all/footer4.png" alt="Icon instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                            <img src="./images/all/footer5.png" alt="Icon twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html">
+                            <img src="./images/all/footer6.png" alt="Icon tiktok">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="part-2-3">
+                <p class="text-footer">2022 Tous droits réservés Politique de confidentialité Conditions d’utilisation</p>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-message">
+        <div class="popup-content">
+            <h2 id="popup-title"></h2>
+            <p class="message" id="message"></p>
+            <button id="restart-game">RECOMMENCER</button>
+        </div>
+    </div>
+    <div class="popup-comming">
+        <div class="popup-content">
+            <h2 id="popup-title">TON INITIATION ET TERMINE</h2>
+            <button id="return-home">Revenir a l'accueil</button>
+            <div id="comming">
+                <img id="img-comming" src="./images/enigme/figma_logo.svg">
+                <div id="text-comming">
+                    <p>
+                        COMMING SOON ... <br>
+                        00:00:<span id='counter'></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="canvas-container">
+      <canvas id="canvas" width="1300" height="700"></canvas>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/enigme-script.js"></script>
+</body>
+</html>

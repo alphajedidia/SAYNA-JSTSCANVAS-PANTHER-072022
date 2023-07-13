@@ -1,0 +1,77 @@
+h1 {
+    font-family: 'BEYNO';
+}
+
+p {
+    text-align: justify;
+}
+
+section[class="introduction"] {
+    margin-top: -10%;
+    background-image: url('../images/wakanda/Pantherwakanda1.png');
+    height: 40vw;
+    width: 101%;
+    background-size: 100% 60vw;
+    background-repeat: no-repeat;
+    background-position: -10em 0em;
+    padding: 10%  10% 0 10%;
+}
+
+section[class="introduction"] p {
+    width: 30vw;
+    text-align: justify;
+}
+
+section[class="content"] {
+    background-image: url('../images/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    margin-top: -5%;
+    padding-top: 15vw;
+    background-size: contain;
+    background-position: left top;
+}
+
+section[class="content"] .wrapper {
+    display: grid;
+    grid-template-columns:8vw 35vw 10vw 35vw;
+}
+
+section[class="content"] .left-content {
+    grid-column: 2/3;
+}
+
+section[class="content"] .left-content .video {
+    position: relative;
+}
+section[class="content"] .left-content .video video {
+    width: 100%;
+    height: 20vw;
+}
+
+section[class="content"] .left-content .player-icon {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+section[class="content"] .left-content .player-icon:hover {
+    width: 30%;
+}
+
+section[class="content"] .right-content {
+    grid-column: 4/5;
+}
+
+section[class="content"] .right-content .military-power .part-3 img {
+    width: 100%;
+    height: 20vw;
+}
+
+section[class="content"] .right-content .military-power .part-3 img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}

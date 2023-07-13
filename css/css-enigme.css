@@ -1,0 +1,199 @@
+h1 {
+    font-family: 'BEYNO';
+    text-align: justify;
+    font-weight: normal;
+    font-size: 3em;
+    padding-left: 20%;
+}
+
+section[class="introduction"] {
+    padding: 15% 15%;
+    background-image: url('../images/enigme/Pantherenigme1.png');
+    height: 30vw;
+    width: 100%;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: left -8vw;
+    margin-top: -13%;
+    display: grid;
+    grid-template-columns: 3fr 6fr 2fr;
+}
+
+section[class="introduction"] .content {
+    grid-column: 2/3;
+    margin-top: -10%;
+}
+
+section[class="introduction"] p {
+    width: 30vw;
+    text-align: justify;
+    background-image: url('../images/enigme/Pantherenigme2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 4em -5em;
+    padding: 22%;
+}
+
+section[class="introduction"] p img {
+    margin-left: 50%;
+    width: 15%;
+}
+p[class='wakanda-forever'] {
+    color: #9E91B7;
+}
+
+section[class="enigme"] {
+    padding: 10% 5% 10% 10%;
+}
+
+section[class='enigme'] .response {
+    margin-top: 7em;
+    display: grid;
+    grid-template-columns: 4fr 0.5fr 6fr;
+}
+
+section[class='enigme'] .response .transcription {
+    grid-column: 1/2;
+}
+
+section[class='enigme'] .response .know {
+    grid-column: 3/4;
+    background-image: url('../images/enigme/Pantherenigme4.png');
+    padding: 5%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:  50vw 30vw;
+    background-position: 0 30%;
+    padding: 17% 13% 15% 15%;
+}
+
+section[class='enigme'] .transcription .wf {
+    font-family: 'Wakanda Forever';
+}
+
+section[class='enigme'] .transcription input {
+    width: 90%;
+    height: 3vw;
+    border-radius: 3em;
+    border: 1px solid #9E91B7;
+    padding: 0 5%;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+section[class='enigme'] .transcription .in-res {
+    margin-top: 7em;
+}
+
+section[class='enigme'] .transcription button {
+    height: 10%;
+    border-radius: 3em;
+    margin-top: 2%;
+    border: none;
+    padding: 3% 5% 3% 5%;
+    background-color: #F2CEF2;
+    margin-top: 5em;
+    font-size: 1em;
+}
+
+p[class='text-intro'] {
+    width: 40vw;
+}
+
+button:hover {
+    box-shadow: 0px 8px 16px 0px #ddd;
+    cursor: pointer;
+}
+
+.popup-comming, .popup-message {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(to bottom, rgba(64, 40, 80, 1.0), rgba(2, 23, 64, 1.0));
+    opacity: 0.99;
+    z-index: 9999;
+}
+.popup-content {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 10%, rgba(242, 206, 242, .1) 90%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 5%;
+}
+
+.popup-comming .popup-content {
+    grid-template-rows: 1fr 1fr 5fr;
+}
+
+#popup-title {
+    grid-row: 1;
+    font-family: 'Cantarell';
+    font-size: 1em;
+    color: white;
+}
+
+#message {
+    grid-row: 2;
+    font-size: 0.70em;
+    text-transform: capitalize;
+    color: #ddd;
+    padding: 0 10%;
+}
+
+#return-home {
+    grid-row: 2;
+    height: 3.5vw;
+    width: 20vw;
+    margin-left: 25%;
+    margin-top: 1em;
+    border-radius: 3em;
+    border: none;
+    padding: 3% 5% 5% 5%;
+    background-color: #F2CEF2;
+    font-size: 0.75em;
+}
+
+#comming {
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: 1fr 5fr;
+}
+
+#img-comming {
+    grid-column: 1/2;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+#text-comming {
+    grid-column: 2/3;
+}
+
+#restart-game {
+    grid-row: 3;
+    height: 3.5vw;
+    width: 20vw;
+    margin-left: 25%;
+    margin-top: -25%;
+    border-radius: 3em;
+    border: none;
+    padding: 3% 5% 5% 5%;
+    background-color: #F2CEF2;
+    margin-top: 5em;
+    font-size: 0.75em;
+}

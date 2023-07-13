@@ -1,0 +1,267 @@
+section[class="introduction"] {
+    padding: 10% 15%;
+    background-image: url('../images/accueil/Pantherhome1.png');
+    height: 30vW;
+    width: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 70% top;
+    margin-top: -10%;
+}
+
+section[class="introduction"] p {
+    width: 32vw;
+    text-align: justify;
+}
+
+section a {
+    color: #fff;
+    text-decoration: underline;
+}
+section[class="presentation"] {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+section[class="presentation"] > div[class='wrapper'] {
+    grid-column: 1/2;
+}
+
+section[class="presentation"] > div[class='wrapper'] {
+    grid-column: 2/3;
+    padding-left: 10%;
+    height: 17.8vw;
+    width: 100%;
+    background-color: #021740;
+    padding-left: 2%;
+}
+
+section[class="presentation"] .wrapper {
+    display: grid;
+    grid-template-columns: 4fr 4fr 3fr 4fr 2fr;
+}
+
+section[class="presentation"] .wrapper .img-1 {
+    grid-column: 1/2;
+}
+
+section[class="presentation"] .wrapper .img-1 img {
+    height: 25vw;
+    margin-top: -20%;
+}
+
+section[class="presentation"] .wrapper .part-1 {
+    grid-column: 2/3;
+    padding: 3%;
+    position: relative;
+    text-align: justify;
+}
+
+section[class="presentation"] .wrapper .img-2 {
+    grid-column: 3/4;
+}
+
+section[class="presentation"] .wrapper .img-2 img {
+    height: 18vw;
+}
+
+section[class="presentation"] .wrapper .part-2 {
+    grid-column: 4/5;
+    padding: 3%;
+    position: relative;
+    text-align: justify;
+}
+
+section[class="presentation"] .wrapper .img-3 {
+    grid-column: 5/6;
+    position: relative;
+}
+
+
+#more-person {
+    padding: 10% 12%;
+    background-color: #021740;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+section[class="presentation"] .wrapper .img-3 img {
+    height: 18vw;
+}
+
+section[class="presentation"] .wrapper>div>a[class='plus'] {
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+}
+section[class='stories'] {
+     padding: 15% 10% 5% 10%;
+}
+
+section[class='stories'] .wrapper {
+    display: grid;
+    grid-template-columns: 50vw 8vw 25vw 3vw;
+}
+
+section[class='stories'] .wrapper .part-text {
+    grid-column: 1/2;
+    padding-left: 10%;
+}
+
+section[class='stories'] .wrapper .profile {
+    grid-column:  3/4;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 4fr;
+}
+
+section[class='stories'] .text {
+    text-align: justify;
+}
+
+section[class='stories'] .wrapper .profile .card{
+    background-color: #FFF;
+    border-radius: 1em;
+    grid-row: 2;
+    width: 25vw;
+    text-align: center;
+    color: #000;
+    box-shadow: 0px 4px 8px 0px #000;
+}
+
+section[class='stories'] .wrapper .profile .card img {
+    margin-top: -60%;
+    width: 80%;
+}
+
+section[class='stories'] .wrapper .profile .card img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
+section[class='stories'] .wrapper .profile .card .btn button{
+    padding: 2% 3%;
+    background-color: #3D2DA6;
+    border-radius: 5%;
+    color: #fff;
+    border: none;
+    font-size: 0.75em;
+}
+
+section[class='stories'] .wrapper .profile .card .content{
+    padding: 10%;
+    text-align: left;
+}
+
+section[class='stories'] .wrapper .profile .black-img {
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+}
+
+section[class='stories'] .wrapper .profile .black-img img {
+    margin-left: -20%;
+    width: 40vw;
+}
+
+section[class='stories'] .wrapper .profile .black-img img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
+section[class='contact'] {
+    background-image: url('../images/accueil/Pantherhome4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 10%;
+    color: black;
+}
+
+section[class='contact'] .title {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+section[class='contact'] .content {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1.0) 20%, rgba(242, 206, 242, .2) 60%);
+    border-radius: 20%;
+    text-align: center;
+    grid-column: 2/3;
+    height: 35vw;
+    padding: 1em 0;
+}
+
+section[class='contact'] .content input {
+    width: 40%;
+    height: 3vw;
+    border-radius: 3em;
+    border: 1px solid #3D2DA6;
+    padding: 0 5%;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+section[class='contact'] .content textarea {
+    width: 40%;
+    height: 15%;
+    resize: none;
+    border: 1px solid #3D2DA6;
+    padding: 0 5%;
+    border-radius: 2em;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+section[class='contact'] .content button {
+    height: 10%;
+    border-radius: 3em;
+    font-size: 1.5em;
+    margin-top: 2%;
+    border: none;
+    padding: 2% 5% 4% 5%;
+    background-color: #F2CEF2;
+}
+
+.voir-plus {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.voir-plus:hover {
+    font-weight: bolder;
+}
+
+.popup-message {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+    opacity: 0.99;
+    z-index: 9999;
+}
+
+.popup-content {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
